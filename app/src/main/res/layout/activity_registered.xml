@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/bg"
+                android:orientation="horizontal"
+                android:clipChildren="false"
+               >
+    <com.kunyuanzhihui.ifullcaretv.widget.MyHorizontalScrollView
+        android:id="@+id/sc_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:clipChildren="false"
+        android:scrollbars="none">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_zyy"
+                style="@style/FocusableView"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_marginRight="20dp"
+                android:background="@mipmap/green"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/ico_hospital"/>
+
+                    <TextView
+                        style="@style/TextStyle.WhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="找医院"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_jtys"
+                style="@style/FocusableView"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_toRightOf="@+id/rl_zyy"
+                android:layout_marginRight="20dp"
+                android:background="@mipmap/brightred"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/ico_doctor"/>
+
+                    <TextView
+                        style="@style/TextStyle.WhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView3"
+                        android:layout_marginTop="5dp"
+                        android:text="家庭医生"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_zsxys"
+                style="@style/FocusableView"
+                android:layout_width="200dp"
+                android:layout_height="250dp"
+                android:layout_toRightOf="@id/rl_jtys"
+                android:layout_marginRight="20dp"
+                android:background="@mipmap/orange"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/ico_familiar"/>
+
+                    <TextView
+                        style="@style/TextStyle.WhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="找熟悉医生"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.kunyuanzhihui.ifullcaretv.widget.MyHorizontalScrollView>
+
+
+</RelativeLayout>
+
+

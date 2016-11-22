@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/activity_main"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/bg"
+                android:clipChildren="false"
+                tools:context="com.kunyuanzhihui.ifullcaretv.activity.MainActivity">
+
+    <ImageView
+        android:id="@+id/img_next"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:paddingEnd="5dp"
+        android:paddingRight="5dp"
+        android:scaleType="fitEnd"
+        android:src="@mipmap/next"/>
+
+    <ImageView
+        android:id="@+id/img_pre"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:paddingStart="5dp"
+        android:scaleType="fitStart"
+        android:src="@mipmap/prev"/>
+
+    <RelativeLayout
+        android:id="@+id/rl_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/bgTranslucentBlack"
+        android:clipChildren="false">
+
+        <ImageView
+            android:id="@+id/icon_mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginStart="20dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ico_mail_d"/>
+
+        <com.kunyuanzhihui.ifullcaretv.widget.MarqueeTextView
+            android:id="@+id/tv_mail"
+            style="@style/TextStyle.AutoRunStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@+id/icon_mail"
+            android:layout_toLeftOf="@+id/rl_alarmReserve"
+            android:layout_toRightOf="@+id/icon_mail"
+            android:layout_toStartOf="@+id/rl_alarmReserve"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:paddingEnd="5dp"
+            android:paddingRight="5dp"
+            android:text="一二三四五六七八九十壹贰叁肆伍陆柒捌玖拾一二三四五六七八九十壹贰叁肆伍陆柒捌玖拾"
+            android:textColor="@android:color/white"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_alarmReserve"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="#B9FFFFFF">
+
+            <TextView
+                style="@style/TextStyle.WhiteTextStyle"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="-20dp"
+                android:layout_marginStart="-20dp"
+                android:layout_marginTop="-20dp"
+                android:background="@mipmap/notice"
+                android:text="99+"
+                android:textSize="18sp"
+                android:textStyle="bold"/>
+
+            <com.kunyuanzhihui.ifullcaretv.widget.MarqueeTextView
+                android:id="@+id/tv_alarmContent"
+                style="@style/TextStyle.AutoRunStyle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="预约提醒:13小时后"
+                android:textColor="@color/lightRed"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.kunyuanzhihui.ifullcaretv.widget.MyHorizontalScrollView
+        android:id="@+id/h_scrollview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:scrollbars="none"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/img_pre"
+        android:layout_toEndOf="@+id/img_pre">
+
+        <RelativeLayout
+            android:id="@+id/rl_scrollContext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:clipChildren="false">
+
+            <RelativeLayout
+                android:id="@+id/rl_pt"
+                style="@style/FocusableView"
+                android:layout_width="250dp"
+                android:layout_height="180dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="20dp"
+                android:background="@mipmap/green"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/together"/>
+
+                    <TextView
+                        style="@style/TextStyle.WhiteTextStyle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView"
+                        android:layout_marginTop="5dp"
+                        android:text="陪同服务"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_jz"
+                style="@style/FocusableView"
+                android:layout_width="250dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/rl_pt"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@mipmap/brightred"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/housework"/>
+
+                    <TextView
+                        style="@style/TextStyle.WhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView2"
+                        android:layout_marginTop="5dp"
+                        android:text="家政服务"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_dc"
+                style="@style/FocusableView"
+                android:layout_width="300dp"
+                android:layout_height="180dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/rl_pt"
+                android:background="@mipmap/orange"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/meal"/>
+
+                    <TextView
+                        style="@style/TextStyle.WhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView3"
+                        android:layout_marginTop="5dp"
+                        android:text="订餐"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_rcph"
+                style="@style/FocusableView"
+                android:layout_width="140dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/rl_dc"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/rl_pt"
+                android:background="@mipmap/blue"
+                android:orientation="vertical"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/care"/>
+
+                    <TextView
+                        style="@style/TextStyle.WhiteTextStyle2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView3"
+                        android:layout_marginTop="5dp"
+                        android:text="日常陪护"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_wx"
+                style="@style/FocusableView"
+                android:layout_width="140dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/rl_dc"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_toRightOf="@+id/rl_rcph"
+                android:background="@mipmap/purple2"
+                android:orientation="vertical"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/maintain"/>
+
+                    <TextView
+                        style="@style/TextStyle.WhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView3"
+                        android:layout_marginTop="5dp"
+                        android:text="维修"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_mroe"
+                style="@style/FocusableView"
+                android:layout_width="200dp"
+                android:layout_height="180dp"
+                android:layout_alignBottom="@+id/rl_wx"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/rl_dc"
+                android:background="@mipmap/green2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@mipmap/more"/>
+
+                    <TextView
+                        style="@style/TextStyle.WhiteTextStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/imageView3"
+                        android:layout_marginTop="5dp"
+                        android:text="更多"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.kunyuanzhihui.ifullcaretv.widget.MyHorizontalScrollView>
+</RelativeLayout>

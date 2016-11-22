@@ -1,0 +1,476 @@
+[
+    {
+        "outputFile": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2773,
+                    "endColumn": 42,
+                    "endOffset": 2811
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 74,
+                        "endColumn": 42,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2816,
+                    "endColumn": 74,
+                    "endOffset": 2886
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 74,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2891,
+                    "endColumn": 75,
+                    "endOffset": 2962
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 75,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2967,
+                    "endColumn": 71,
+                    "endOffset": 3034
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 71,
+                        "endOffset": 590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 3039,
+                    "endColumn": 65,
+                    "endOffset": 3100
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 595,
+                        "endColumn": 65,
+                        "endOffset": 656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 3105,
+                    "endColumn": 52,
+                    "endOffset": 3153
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 304,
+                        "endColumn": 52,
+                        "endOffset": 352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 3158,
+                    "endColumn": 54,
+                    "endOffset": 3208
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 116,
+                        "endColumn": 51,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 3213,
+                    "endColumn": 61,
+                    "endOffset": 3270
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 61,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 3275,
+                    "endColumn": 65,
+                    "endOffset": 3336
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 236,
+                        "endColumn": 62,
+                        "endOffset": 297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3341,
+                    "endColumn": 68,
+                    "endOffset": 3405
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 170,
+                        "endColumn": 65,
+                        "endOffset": 234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3410,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 3696
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3701,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 3856
+                },
+                "from": {
+                    "file": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 2773,
+                    "endColumn": 42,
+                    "endOffset": 2811
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 74,
+                        "endColumn": 42,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 2816,
+                    "endColumn": 74,
+                    "endOffset": 2886
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 372,
+                        "endColumn": 74,
+                        "endOffset": 442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 2891,
+                    "endColumn": 75,
+                    "endOffset": 2962
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 447,
+                        "endColumn": 75,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2967,
+                    "endColumn": 71,
+                    "endOffset": 3034
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 71,
+                        "endOffset": 590
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 3039,
+                    "endColumn": 65,
+                    "endOffset": 3100
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\build\\intermediates\\exploded-aar\\com.android.support\\recyclerview-v7\\25.0.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 595,
+                        "endColumn": 65,
+                        "endOffset": 656
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 3105,
+                    "endColumn": 52,
+                    "endOffset": 3153
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 304,
+                        "endColumn": 52,
+                        "endOffset": 352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 3158,
+                    "endColumn": 54,
+                    "endOffset": 3208
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 116,
+                        "endColumn": 51,
+                        "endOffset": 166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 3213,
+                    "endColumn": 61,
+                    "endOffset": 3270
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 61,
+                        "endOffset": 114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 3275,
+                    "endColumn": 65,
+                    "endOffset": 3336
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 236,
+                        "endColumn": 62,
+                        "endOffset": 297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 3341,
+                    "endColumn": 68,
+                    "endOffset": 3405
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 170,
+                        "endColumn": 65,
+                        "endOffset": 234
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 3410,
+                    "endLine": 33,
+                    "endColumn": 12,
+                    "endOffset": 3696
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 186,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 472
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 3701,
+                    "endLine": 36,
+                    "endColumn": 12,
+                    "endOffset": 3856
+                },
+                "from": {
+                    "file": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 510,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 665
+                    }
+                }
+            }
+        ]
+    }
+]

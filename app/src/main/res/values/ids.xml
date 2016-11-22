@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 标题栏id -->
+    <item type="id"  name="tab1" />
+    <item type="id"  name="tab2" />
+    <item type="id"  name="tab3" />
+    <item type="id"  name="tab4" />
+    
+
+</resources>

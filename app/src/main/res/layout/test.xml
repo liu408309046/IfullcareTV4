@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.kunyuanzhihui.ifullcaretv.widget.CenterImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:image_width="1000dp"
+        app:image_height="450dp"
+        app:image_src="@mipmap/test"
+        app:text_width="150dp"
+        app:text_height="50dp"
+        app:text_size="30sp"
+        app:text_color="@android:color/black"
+        app:text="@string/app_name"
+        >
+    </com.kunyuanzhihui.ifullcaretv.widget.CenterImageButton>
+</LinearLayout>

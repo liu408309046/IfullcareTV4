@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/bg"
+              android:orientation="vertical">
+
+    <com.open.androidtvwidget.view.SmoothHorizontalScrollView
+        android:id="@+id/h_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        >
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/gallery_familylist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_title"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:nextFocusUp="@+id/tab1"
+            android:padding="30dp"
+            android:scrollbars="none"
+            />
+
+
+    </com.open.androidtvwidget.view.SmoothHorizontalScrollView>
+
+</LinearLayout>

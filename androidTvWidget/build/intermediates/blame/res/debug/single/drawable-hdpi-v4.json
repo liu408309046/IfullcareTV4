@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\slinwSvn\\TvBox\\IfullcareTV\\androidTvWidget\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\tvapp\\IfullcareTV3\\androidTvWidget\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\tvapp2\\IfullcareTV3\\androidTvWidget\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "D:\\tvapp2\\IfullcareTV3\\androidTvWidget\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]

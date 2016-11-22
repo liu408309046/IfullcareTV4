@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    android:clipChildren="false"
+    tools:context="com.kunyuanzhihui.ifullcaretv.activity.DetailActivity">
+
+    <RelativeLayout
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:id="@+id/rl_left"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:background="#546FA4">
+
+        <ListView
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:id="@+id/left_items"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:scrollbars="none"
+            android:divider="@null"></ListView>
+    </RelativeLayout>
+
+    <ImageView
+        style="@style/FocusableView"
+        android:id="@+id/img_back"
+        android:layout_width="45dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/back" />
+
+    <ImageView
+        style="@style/FocusableView"
+        android:id="@+id/img_home"
+        android:layout_width="45dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/img_back"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/home" />
+
+    <ImageView
+        style="@style/FocusableView"
+        android:id="@+id/img_record"
+        android:layout_width="45dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_toLeftOf="@+id/img_home"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/report_under_record" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/img_back"
+        android:layout_alignRight="@+id/img_back"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@id/rl_left"
+        android:background="#25022A"
+        android:clipChildren="false">
+
+        <ImageView
+            android:id="@+id/img_tips"
+            android:layout_width="49dp"
+            android:layout_height="35dp"
+            android:layout_margin="12dp"
+            android:src="@mipmap/report_tips" />
+
+        <TextView
+            android:id="@+id/tv_tips"
+            style="@style/TextStyle.WhiteTextStyle"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_tips"
+            android:layout_toRightOf="@+id/img_tips"
+            android:gravity="left|bottom"
+            android:paddingLeft="20dp"
+            android:paddingStart="20dp"
+            android:text="BMI偏高"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_tipsContent"
+            style="@style/TextStyle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img_tips"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:text="请改善生活，饮食习惯"
+            android:textColor="#FC6025"
+            android:textSize="26sp" />
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="250dp"
+            android:layout_height="2dp"
+            android:layout_below="@+id/tv_tipsContent"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/line"></View>
+
+        <TextView
+            android:id="@+id/tv_advice"
+            style="@style/TextStyle"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_moreAdvice"
+            android:layout_below="@+id/line"
+            android:paddingEnd="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingStart="20dp"
+            android:text="均衡膳食，如减少过多糖分的摄入..."
+            android:textColor="@android:color/white"
+            android:textSize="26dp" />
+
+        <ImageView
+            android:id="@+id/img_bottom"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/lightRed"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_moreAdvice"
+            style="@style/TextStyle"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/img_bottom"
+            android:layout_alignEnd="@id/img_bottom"
+            android:layout_alignRight="@id/img_bottom"
+            android:layout_marginBottom="10dp"
+            android:gravity="right"
+            android:maxLines="1"
+            android:text="@string/more_advice"
+            android:textColor="#4ED1EF" />
+
+        <RelativeLayout
+            android:id="@+id/rl_progressbar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_toRightOf="@+id/tv_tips"
+            android:background="@android:color/white"
+            android:gravity="center">
+
+            <SeekBar
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginStart="20dp"
+                android:progress="100"
+                android:progressDrawable="@drawable/seekbar_style"
+                android:thumb="@android:color/transparent" />
+
+            <TextView
+                android:id="@+id/tv_highSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/seekBar"
+                android:layout_below="@+id/seekBar"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginTop="5dp"
+                android:text="偏高"
+                android:textColor="#6E4738"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_centerSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/seekBar"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="正常"
+                android:textColor="#6E4738"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_lowSign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="偏低"
+                android:textColor="#6E4738"
+                android:textSize="20sp"
+                android:layout_alignBaseline="@+id/tv_centerSign"
+                android:layout_alignBottom="@+id/tv_centerSign"
+                android:layout_alignLeft="@+id/seekBar"
+                android:layout_alignStart="@+id/seekBar" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_value"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/rl_progressbar"
+            android:layout_marginEnd="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/tv_tips"
+            android:background="@drawable/detail_bg"
+            android:clipChildren="false">
+
+            <TextView
+                android:id="@+id/tv_valueTitle"
+                style="@style/TextStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="18dp"
+                android:gravity="left|bottom"
+                android:text="您的体重检测记录:"
+                android:textColor="#6E4738" />
+
+            <TextView
+                android:id="@+id/tv_unit"
+                style="@style/TextStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginRight="30dp"
+                android:text="公斤"
+                android:textColor="#6E4738"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/tv_value"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tv_valueTitle"
+                android:layout_toLeftOf="@+id/tv_unit"
+                android:gravity="center_horizontal|bottom"
+                android:text="62.3"
+                android:textColor="#0B8457"
+                android:textSize="180sp" />
+
+            <ImageView
+                android:id="@+id/img_headIcon"
+                android:layout_width="88dp"
+                android:layout_height="88dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="-22dp"
+                android:layout_marginRight="-22dp"
+                android:layout_marginTop="-44dp"
+                android:background="@drawable/ring_bg"
+                android:padding="3dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/head1" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
